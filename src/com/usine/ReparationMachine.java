@@ -7,7 +7,7 @@ public class ReparationMachine {
 
     //Cette fonction permet de reparer la machine.
     public void reparationMachine(Machine machine) {
-        System.out.println("La machine est en reparation");
+        System.out.println("La machine est en panne ( ...reparation en cour )");
         machine.setEtat_machine("en_marche");
         Random rand = new Random();
         machine.setTemps_reparation(rand.nextInt(6));
